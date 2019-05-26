@@ -5,6 +5,7 @@ import EffectComponent from "./Effect";
 import ContextComponent from "./Context";
 import RefComponent from "./Refs";
 import ReducerComponent from "./Reducer";
+import MemoComponent from "./Memo";
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
       <RefComponent />
       <hr />
       <ReducerComponent />
+      <hr />
+      <MemoComponent />
     </div>
   );
 };
