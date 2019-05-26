@@ -6,6 +6,8 @@ import ContextComponent from "./Context";
 import RefComponent from "./Refs";
 import ReducerComponent from "./Reducer";
 import MemoComponent from "./Memo";
+import CallbackComponent from "./Callback";
+import LayoutEffectComponent from "./LayoutEffect";
 
 const App = () => {
   return (
@@ -21,6 +23,10 @@ const App = () => {
       <ReducerComponent />
       <hr />
       <MemoComponent />
+      <hr />
+      <CallbackComponent />
+      <hr />
+      <LayoutEffectComponent />
     </div>
   );
 };
