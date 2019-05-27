@@ -1,5 +1,6 @@
 import React, { useState, useLayoutEffect, useRef } from "react";
 
+// usefull if you want to measure something on the DOM
 const LayoutEffectComponent = () => {
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
